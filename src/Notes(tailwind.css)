@@ -1,0 +1,53 @@
+//Notes for tailwind css
+
+// pb-16: This adds padding to the bottom of the element, equivalent to 4rem (since 16 in Tailwind typically corresponds to 4rem).
+
+// text-3xl: This sets the font size to the 3xl size in Tailwind's predefined font sizes, typically around 1.875rem.
+
+// font-thin: This sets the font weight to "thin," which is typically equivalent to a weight of 100.
+
+// tracking-tight: This reduces the letter spacing, making the characters closer together.
+
+// lg:mt-16: This adds a top margin of 4rem (16 in Tailwind) to the element when the screen size is at least lg (large), which is defined as 1024px by default.
+
+// lg:text-8xl: This sets the font size to 8xl (about 6rem) when the screen size is at least lg.
+
+// border-b: This class applies a bottom border to the element. By default, this border is 1px wide and uses the current color.
+
+// border-neutral-900: This class sets the color of the border to a very dark neutral gray (#212121). Tailwind provides various neutral shades, and 900 is one of the darkest.
+
+// flex: This class applies display: flex; to the element, making it a flex container. This allows the element's children to be laid out using the flexbox model.
+
+// flex-col: This class sets the flex direction to column (flex-direction: column;). This means the children of the flex container will be stacked vertically.
+
+// items-center: This class aligns the flex container's children along the cross axis (which is horizontal when using flex-col) to the center (align-items: center;).
+
+// lg:items-start: This class changes the alignment of the flex container's children along the cross axis to the start (align-items: flex-start;) when the screen size is at least lg (large), which is defined as 1024px by default in Tailwind CSS.
+
+bg-gradient-to-r: This class creates a background gradient that moves from left to right (to right direction).
+
+from-pink-300: This specifies the starting color of the gradient, which is a light pink (#F9A8D4).
+
+via-slate-500: This specifies an intermediate color in the gradient, which is a medium slate gray (#64748B).
+
+to-purple-500: This specifies the ending color of the gradient, which is a medium purple (#A855F7).
+
+bg-clip-text: This class makes the background gradient only apply to the text, effectively "clipping" the background to the shape of the text (background-clip: text;).
+
+text-4xl: This sets the font size to 4xl in Tailwind's predefined sizes, which is typically around 2.25rem.
+
+tracking-tight: This reduces the letter spacing, making the characters closer together (letter-spacing: -0.025em;).
+
+text-transparent: This makes the text color fully transparent (color: transparent;). Combined with bg-clip-text, it allows the gradient to show through the text.
+
+my-2: This sets both the top and bottom margins of the element to 0.5rem (8px). m stands for margin, and y applies the margin to both the top and bottom.
+
+max-w-xl: This sets the maximum width of the element to 36rem (576px). The element will not exceed this width, but it can be narrower if its content is smaller.
+
+py-6: This adds padding to the top and bottom of the element, equivalent to 1.5rem (24px). p stands for padding, and y applies the padding to both the top and bottom.
+
+font-light: This sets the font weight to "light," which is typically equivalent to a weight of 300.
+
+tracking-tighter: This reduces the letter spacing even more than the tracking-tight class, making the characters closer together (letter-spacing: -0.05em;).
+
+
