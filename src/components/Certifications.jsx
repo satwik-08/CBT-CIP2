@@ -12,7 +12,7 @@ const Certifications = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          My <span className='text-cyan-500'>certifications</span>
+          <span className='text-cyan-500'>Certifications</span>
         </motion.h1>
         
         <div className='services-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10'>
