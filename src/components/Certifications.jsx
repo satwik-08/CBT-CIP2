@@ -7,12 +7,12 @@ const Certifications = () => {
     <section className='services' id='services'>
       <div className='container mx-auto'>
         <motion.h1 
-          className='sub-title text-center text-4xl font-bold my-8'
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          className='my-20 text-center text-4xl'
+          whileInView={{opacity:1,y:0}}
+        initial={{opacity:0,y:-100}}
+        transition={{duration:1.5}}
         >
-          <span className='text-cyan-500'>Certifications</span>
+          Certifications
         </motion.h1>
         
         <div className='services-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10'>
@@ -71,7 +71,7 @@ const Certifications = () => {
                 className='absolute bottom-4 left-1/2 transform -translate-x-1/2 inline-block py-2 px-6 bg-cyan-500 text-neutral-800 font-semibold rounded-full transition-all duration-500 opacity-0 hover:opacity-100 hover:shadow-cyan-400/80'
                 whileHover={{ scale: 1.1 }}
               >
-                View
+                
               </motion.a>
             </motion.div>
           ))}

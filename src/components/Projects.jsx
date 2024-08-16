@@ -7,7 +7,7 @@ const Projects = () => {
         <motion.h1 
         whileInView={{opacity:1,y:0}}
         initial={{opacity:0,y:-100}}
-        transition={{duration:0.5}}
+        transition={{duration:1.5}}
         className='my-20 text-center text-4xl'>Projects</motion.h1>
       <div>
         {PROJECTS.map((project,index)=>(
@@ -37,7 +37,7 @@ const Projects = () => {
                 <p className='mb-4 text-neutral-400'>{project.description}</p>
                 
                 {project.technologies.map((tech,index)=>(
-                    <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-900'>{tech}</span>
+                    <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cream-900'>{tech}</span>
                 ))}
                 </motion.div>
                 </div>
