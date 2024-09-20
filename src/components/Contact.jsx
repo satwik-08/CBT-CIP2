@@ -35,7 +35,7 @@ const Contact = () => {
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          href='https://drive.google.com/file/d/1yY0Zks0u5C3YxYhOJjGtDd_fS1DAabkE/view?usp=sharing'
+          href='https://drive.google.com/file/d/1-jpUd5zD8hf-6vrZ70j3NND-z9VSQEJj/view?usp=sharing'
           target='_blank'
           className='inline-block mt-8 px-8 py-4 bg-cyan-500 text-neutral-900 font-semibold rounded-full shadow-lg hover:bg-cyan-600 transition duration-300'
         >
